@@ -53,15 +53,9 @@ $ oc login -u developer -p developer
 +
 [source,bash,options="nowrap",subs="attributes+"]
 ----
-$ oc new-project MY_PROJECT_NAME
+$ oc new-project fuse-rest-http-booster-s2i
 ----
 
-. Change the directory to the folder that contains the extracted booster application (for example, `my_openshift/fuse-rest-http-booster`) :
-+
-[source,bash,options="nowrap",subs="attributes+"]
-----
-$ cd my_openshift/fuse-rest-http-booster
-----
 
 . Build and deploy the project to the OpenShift cluster:
 +
